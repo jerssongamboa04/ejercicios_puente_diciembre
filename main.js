@@ -88,4 +88,16 @@ if (age >= 18 && Nationality== "española"){
 
 let text = prompt ("escriba un texto");
 console.log(text.replaceAll(" ",""));
+
+// Ejercicio 7
+
+let string = "pámpano";
+
+function reverseString(str) {
+  let arrStr = str.split("");
+
+  return arrStr.reverse().join("");
+}
+
+console.log(reverseString(string)); 
  
